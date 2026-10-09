@@ -1,5 +1,5 @@
 [project]
-name = "the-gemma-4-developer-agent-competition"
+name = "gemma-4-developer-agent"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
@@ -9,7 +9,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-the-gemma-4-developer-agent-competition = "the_gemma_4_developer_agent_competition:main"
+gemma-4-developer-agent = "gemma_4_developer_agent:main"
 
 [build-system]
 requires = ["uv_build>=0.12.24,<0.13.0"]
